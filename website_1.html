@@ -1,0 +1,342 @@
+<!DOCTYPE HTML PUBLIC>
+<html lang="zh-TW">
+<head>
+    
+    <title>都蘭部落</title>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    
+    <script>
+        $(function() {
+            $("#b1").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p1").offset().top - 50
+                }, 500);
+            });
+            $("#b2").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p2").offset().top - 50
+                }, 500);
+            });
+            $("#b3").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p3").offset().top - 50
+                }, 500);
+            });
+            $("#b4").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p4").offset().top - 50
+                }, 500);
+            });
+            $("#b5").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p5").offset().top - 50
+                }, 500);
+            });
+            $("#b6").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p6").offset().top - 50
+                }, 500);
+            });
+            $("#b7").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p7").offset().top - 100
+                }, 500);
+            });
+        });
+    </script>
+    
+    <style>
+        <!--要記得放方框留白邊-->
+        #all {
+            width: 800px;
+            margin: 0px auto;
+        }
+
+        #header {
+            height: 100px;
+            width: 800x;
+            <!-- background-image: url('123.jpg');-->
+            <!--background-color:#FF8888;-->
+        }
+
+        #wrapper {
+            float:left;
+            width:100%;
+            text-align:center;
+        }
+
+        #side {
+            float:left;
+            width:250px;
+            background-color:white;
+            text-align:center;
+            <!--選單-->
+        }
+        
+        #side2 {
+            float:right;
+            width:250px;
+            background-color:white;
+            text-align:center;
+            <!--選單-->
+        }
+
+        #main {
+            margin-left:250px;
+            margin-right:250px;
+            text-align:center;
+            background-color:#fffaf3;
+        }
+
+        #footer {
+            clear:both;
+            height:50px;
+            background-color:orange;
+            <!--參考資料.網址.製作人姓名-->
+        }
+
+        .ttp {
+            font-family: '微軟正黑體', 'arial black', sans-serif;
+            color: black;
+            text-align: center;
+            text-shadow:
+            -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px 2px 0 #FFF, 4px 4px 4px white;
+            line-height:40px;
+        }
+
+        .ttp2 {
+            font:italic 20px/20px;
+            font-family:"標楷體 ";
+            color:black;
+            text-align:center;
+            text-shadow:3px 4px 5px white;
+            margin-top:0px;
+        }
+
+        .button1 {
+            display:inline-block;
+            padding:10px 20px;
+            margin:10px;
+            width:150px;
+            font-size:20px;
+            background-color:white;
+            color:black;
+            border:2px orange solid;
+            border-radius:10px;
+            transition:0.5s;
+        }
+        
+        .button2 {
+            display:inline-block;
+            padding:10px 20px;
+            margin:10px;
+            width:150px;
+            font-size:20px;
+            background-color:white;
+            color:black;
+
+            border-radius:10px;
+            transition:0.5s;
+        }
+
+        .button1:hover {
+            background-color:pink;
+            color:blue;
+            cursor:pointer;
+        }
+
+        .md {
+            margin:0px;
+            padding:0px;
+        }
+
+        h2 {
+            display:inline-block;
+            background-color:white;
+            border:4px red double;
+            border-radius:10px;
+            font-family:"微軟正黑體";
+            margin:0px;
+        }
+
+        h3 {
+            margin:0px;
+            font-family:"標楷體";
+        }
+        
+        .nav-item{
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.25em;
+        }
+        
+        nav {
+          background-color: #79B4B7;
+          
+        }
+    </style>
+
+</head>
+
+
+
+    
+<body>
+
+    
+    
+    <div id="all">
+        <div id="header">
+            <div style="height:150x;text-align:center;line-height:30px;">
+                <h1 class="ttp" id="t1">
+                    都蘭部落
+                    <br>
+
+                                    -台東縣東河鄉阿度蘭部落-
+                </h1>
+            </div>
+        </div>
+        
+        <div id="side">
+        <ul class="nav" >
+          <li class="button2" >
+            <a class="nav-link" href="website_1.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="button2" href="website_2.html">都蘭景點</a>
+          </li>
+          <li class="nav-item">
+            <a class="button2" href="website_3.html">都蘭美食</a>
+          </li>
+        </ul>
+        </div>
+        
+        <div id="side2">
+            
+            <ul>
+                <button class="button1" id="b1">命名由來</button>
+                </a>
+                <br>
+                <button class="button1" id="b2">使用語言</button>
+                </a>
+                <br>
+                <button class="button1" id="b3">關於都蘭</button>
+                </a>
+                <br>
+                <button class="button1" id="b4">所在位置</button>
+                </a>
+                <br>
+                <button class="button1" id="b5">相關影片</button>
+                </a>
+                <br>
+                </a>
+                <br>
+                
+                <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Falgo.nttu.edu.tw%2F1081ITWWW%2F10811140%2F&width=108&layout=button_count&action=like&size=small&share=true&height=46&appId" width="120" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </ul>
+
+        </div>
+        
+        <div id="main">
+            <ul class="md" id="m1">
+                <div style="background-color:orange;margin:0px;">
+                    <h1 class="ttp2" id="t1">都蘭部落</h1>
+                </div>
+                
+            </ul>
+
+
+            <div id="">
+                <ul class="md" id="m5">
+                    
+                    <div id="p1">
+                            <h1 title="">『都蘭』部落的命名</h1>
+                            <h3>Atolan是阿美族語一堆石頭的意思，其源由是當初阿美族人在此開墾，從田地裡挖掘出許多石頭，會將之堆成一堆一堆的，因發音的關係而叫做都蘭。據口述記載及文史考證，3500年前，繩紋紅陶時期已有阿美族在當時稱為基卡拉山（Gegalasan）的都蘭生活。後期改稱阿度蘭（Edoulan），意為石頭堆積或地震頻繁之意。<br>此地又被認為是阿美族的發源地。日治時期以後，官方稱為「都鑾」。<br>1937年花、東兩廳實施街庄制，再改名「都蘭」。
+                            </h3>
+                    </div>
+                    <br><br>
+                    
+                    <div id="p2">
+                            <h1 title="">使用語言</h1>
+                            <br>
+                            <h3>阿美語、漢語、閩南語</h3>
+                        </ul>
+                    </div>
+                    <br><br>
+                    
+                    <div id="p3">
+                        <ul class="md" id="m3">
+                            <h1 title="">關於都蘭</h1>
+                            <br>
+                            <h3>
+                                部落族人隸屬阿美族卑南群，最早住在知本海濱的美和一帶（即卑南族登陸的發祥地），約三百年為卑南族所敗，因而北徙都蘭，然而卑南族依然不放棄攻擊都蘭人，至日據時代之初，卑南族仍曾經進軍到杉原，所幸因為台東馬蘭社的阿美族中興英雄「馬罕漢」率領族親勇士來助，才成功阻止卑南族北上。
+                                
+                            <h3>
+                                都蘭村阿美族人的祖先發源於知本南邊的Arapanay，後來遷居至初鹿的上邊，因為常與卑南族人發生紛爭，遂漸次向北移動至目前的加走灣(長濱)北方之Antuo，然後又南移至新港西南方（今成功附近），然後又在南移至八里芒(現在的興昌村)附近，於此再度移住至現今都蘭地方。除此之外，都蘭有部分家族與馬蘭有極深之淵源，甚至有部分與卑南族有親戚關係，也有許多家族可以追溯到是從恆春一代遷移過來。
+                            </h3>
+                        </ul>
+                    </div>
+                    <br><br>
+                    
+                    <div id="p4">
+                        <ul class="md" id="m4">
+                            <h1 class="ttp2" id="t7">所在位置</h1>
+
+                            <h3>
+
+                                                    都蘭部落 Atolan 在海岸山脈的山麓上，背倚著阿美族的聖地都蘭山，<br>
+                                                    面俯遼闊無際的太平洋，山與海的韻律，搓揉出都蘭部落特有的風俗民情。</br>
+
+                                                    現今行政區:台東縣東河鄉都蘭村</br>
+                                                    
+
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14704.49148851563!2d121.226059!3d22.871919!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346fa2e6523d80d9%3A0xe5d18126a7410822!2z6YO96Jit6YOo6JC9!5e0!3m2!1szh-TW!2stw!4v1699951400751!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                            </h3>
+                        </ul>
+                    </div>
+                    <br>
+                    <div id="p5">
+                        <ul class="md" id="m7">
+
+                            <h1 class="ttp2" id="t7">相關影片</h1>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6milVeLkKN8?si=3G82Ey1MYqic7PS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <br>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/AOG84xgIfhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </ul>
+                    </div>
+                    
+
+</body>
+</html>
+<!--
+都蘭糖廠藝術村
+1.https://ivans120tw.pixnet.net/blog/post/348454258-%E5%8F%B0%E6%9D%B1.%E6%9D%B1%E6%B2%B3-%E9%83%BD%E8%98%AD%E7%B3%96%E5%BB%A0%E8%97%9D%E8%A1%93%E6%9D%91
+2.https://travel.ettoday.net/article/916454.htm
+水往上流
+1.https://dailyview.tw/popular/detail/5333
+2.https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/33
+加母子灣
+1.https://tour.taitung.gov.tw/zh-tw/attraction/details/329
+2.https://blog.xuite.net/hc108538/twblog/175546785-%E9%87%8D%E5%9B%9E%E5%8A%A0%E6%AF%8D%E5%AD%90%E7%81%A3~%E5%93%87%E9%9D%A0%EF%BC%81%E6%B2%99%E7%81%98%E5%92%A7%EF%BC%9F
+都蘭灣
+1.https://www.google.com/search?q=%E9%83%BD%E8%98%AD%E7%81%A3&sxsrf=ACYBGNTyZjp8oAgQzyS_iBs_E1ia7gtqPg:1576613363918&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiRn4S8vr3mAhUWc3AKHSYqBwcQ_AUoAnoECBEQBA&biw=1536&bih=722#imgrc=peeJsPQboGh5JM:
+2.http://www.formosaimage.com/gallery2/main.php?g2_itemId=20630
+都蘭遺址
+1.https://okgo.tw/butyview.html?id=1448
+2.https://hiking.biji.co/index.php?q=news&act=info&id=3529
+杜侖1932745_834811696533125_1122825253_o.jpg
+石頭火鍋1370-1511159687-dd3c7.jpg
+阿里鳳鳳d6b9c606c2274734559e2bc16fb0091a.jpg
+影片https://youtu.be/AOG84xgIfhc
+https://www.youtube.com/watch?v=CH7ezmY9TIU
+-->
+<!--http://www.nipic.com/show/9644998.html    圖騰圖片來源-->
+<!--地圖
+<a href="https://www.google.com/maps/dir/%E9%83%BD%E8%98%AD%E6%9D%91+959%E5%8F%B0%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B2%B3%E9%84%89/22.872392,121.22654/@22.8761794,121.2071164,15z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x346fa31a12c6a18b:0xd48e9b5faab827f8!2m2!1d121.2053963!2d22.8841203!1m0!3e3?hl=zh-TW">
+    <img src="456.jpg" width="300" height="225" border="5px">
+</a>
+-->

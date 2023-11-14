@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC>
+<html lang="zh-TW">
+<head>
+    
+    <title>都蘭部落</title>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    
+    <script>
+        $(function() {
+            $("#b1").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p1").offset().top - 50
+                }, 500);
+            });
+            $("#b2").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p2").offset().top - 50
+                }, 500);
+            });
+            $("#b3").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p3").offset().top - 50
+                }, 500);
+            });
+            $("#b4").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p4").offset().top - 50
+                }, 500);
+            });
+            $("#b5").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p5").offset().top - 50
+                }, 500);
+            });
+            $("#b6").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p6").offset().top - 50
+                }, 500);
+            });
+            $("#b7").click(function() {
+                $("body").animate({
+                    scrollTop: $("#p7").offset().top - 100
+                }, 500);
+            });
+        });
+    </script>
+    
+    <style>
+        <!--要記得放方框留白邊-->
+        #all {
+            width: 800px;
+            margin: 0px auto;
+        }
+
+        #header {
+            height: 100px;
+            width: 800x;
+            <!-- background-image: url('123.jpg');-->
+            <!--background-color:#FF8888;-->
+        }
+
+        #wrapper {
+            float:left;
+            width:100%;
+            text-align:center;
+        }
+
+        #side {
+            float:left;
+            width:250px;
+            background-color:white;
+            text-align:center;
+            <!--選單-->
+        }
+
+        #side2 {
+            float:right;
+            width:250px;
+            background-color:white;
+            text-align:center;
+            <!--選單-->
+        }
+        
+        #main {
+            margin-left:250px;
+            margin-right:250px;
+            text-align:center;
+            background-color:#fffaf3;
+        }
+
+        #footer {
+            clear:both;
+            height:50px;
+            background-color:orange;
+            <!--參考資料.網址.製作人姓名-->
+        }
+
+        .ttp {
+            font-family: '微軟正黑體', 'arial black', sans-serif;
+            color: black;
+            text-align: center;
+            text-shadow:
+            -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px 2px 0 #FFF, 4px 4px 4px white;
+            line-height:40px;
+        }
+
+        .ttp2 {
+            font:italic 20px/20px;
+            font-family:"標楷體 ";
+            color:black;
+            text-align:center;
+            text-shadow:3px 4px 5px white;
+            margin-top:0px;
+        }
+
+        .button1 {
+            display:inline-block;
+            padding:10px 20px;
+            margin:10px;
+            width:150px;
+            font-size:20px;
+            background-color:white;
+            color:black;
+            border:2px orange solid;
+            border-radius:10px;
+            transition:0.5s;
+        }
+        
+        .button2 {
+            display:inline-block;
+            padding:10px 20px;
+            margin:10px;
+            width:150px;
+            font-size:20px;
+            background-color:white;
+            color:black;
+
+            border-radius:10px;
+            transition:0.5s;
+        }
+        .button1:hover {
+            background-color:pink;
+            color:blue;
+            cursor:pointer;
+        }
+
+        .md {
+            margin:0px;
+            padding:0px;
+        }
+
+        h2 {
+            display:inline-block;
+            background-color:white;
+            border:4px red double;
+            border-radius:10px;
+            font-family:"微軟正黑體";
+            margin:0px;
+        }
+
+        h3 {
+            margin:0px;
+            font-family:"標楷體";
+        }
+        .nav-item{
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.25em;
+        }
+        
+        nav {
+          background-color: #79B4B7;
+          
+        }
+    </style>
+
+</head>
+
+
+
+    
+<body>
+
+    
+    
+    <div id="all">
+        <div id="header">
+            <div style="height:150x;text-align:center;line-height:30px;">
+                <h1 class="ttp" id="t1">
+                    都蘭部落
+                    <br>
+
+                                    -台東縣東河鄉阿度蘭部落-
+                </h1>
+            </div>
+        </div>
+        
+        <div id="side">
+        <ul class="nav" >
+          <li class="button2" >
+            <a class="nav-link" href="website_1.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="button2" href="website_2.html">都蘭景點</a>
+          </li>
+          <li class="nav-item">
+            <a class="button2" href="website_3.html">都蘭美食</a>
+          </li>
+        </ul>
+        </div>
+        
+        <div id="side2">
+            <ul>
+                <button class="button1" id="b1">都蘭糖廠藝術村</button>
+                </a>
+                <br>
+                <button class="button1" id="b2">水往上流 </button>
+                </a>
+                <br>
+                <button class="button1" id="b3">加母子灣 </button>
+                </a>
+                <br>
+                <button class="button1" id="b4">都蘭灣 </button>
+                </a>
+                <br>
+                <button class="button1" id="b5">都蘭遺址 </button>
+                </a>
+                <br>
+
+                </a>
+                <br>
+                
+                <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Falgo.nttu.edu.tw%2F1081ITWWW%2F10811140%2F&width=108&layout=button_count&action=like&size=small&share=true&height=46&appId" width="120" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </ul>
+
+        </div>
+        
+        <div id="main">
+            <ul class="md" id="m1">
+                <div style="background-color:orange;margin:0px;">
+                    <h1 class="ttp2" id="t1">都蘭景點</h1>
+                </div>
+                
+            </ul>
+
+
+            <div id="">
+                <ul class="md" id="m5">
+
+                    
+                    <div id="p1">
+                    <h2 title="">都蘭糖廠藝術村</h2>
+                    <h3>
+                                        新東糖廠建於日本殖民統治臺灣期間，第二次世界大戰末期曾經遭到盟軍砲彈轟炸，雖然已經廢棄多年，但仍保留結構完整的木造房舍、辦公室、升旗台和工廠，於民國80年結束營業生產後，在臺東縣政府輔導下積極轉型為「都蘭紅糖文化園區」，將閒置空間轉化為藝術家合力經營的藝術文化園區。
+                    如今，舊時的辦公室已改變為具有懷舊風味的咖啡館，木造房舍已規劃成民宿以及阿美族傳統文化館。2010年2月，國家音樂廳上演了一齣名為「很久沒有敬我了你」的電影音樂劇，演出後頗受好評，劇中許多場景就是在這裡的咖啡館所拍攝。
+
+                    民國101年臺東縣政府建設處施作新東糖廠廠區改善工程(太平洋海岸步道整體發展計畫)，增設綠地空間與休憩設施，並將廣場地面重新整理，成為聚落活動舉辦的主要空間。
+                                        </h3>
+
+                    
+                    <p align="center">
+                        <marquee behavior="alternate" width="500" height="375" onmouseover="this.stop()" onmouseout="this.start()">
+                            <a href="https://cdn2.ettoday.net/images/2524/d2524553.jpg" target="_blank">
+                                <img border="0" src="https://cdn2.ettoday.net/images/2524/d2524553.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://pic.pimg.tw/ivans120tw/1534055395-1876761246_n.jpg" target="_blank">
+                                <img border="0" src="https://pic.pimg.tw/ivans120tw/1534055395-1876761246_n.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://pic.pimg.tw/ivans120tw/1534055388-1145951864_n.jpg" target="_blank">
+                                <img border="0" src="https://pic.pimg.tw/ivans120tw/1534055388-1145951864_n.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://cdn2.ettoday.net/images/2524/d2524556.jpg" target="_blank">
+                                <img border="0" src="https://cdn2.ettoday.net/images/2524/d2524556.jpg" width="500" height="375">
+                            </a>
+                        </marquee>
+                    </p>
+                    </div>
+                    
+                    <div id="p2">
+                    <h2 title="水往上流奇觀位於台11線約152公里處，原本是條農用灌溉溝渠，
+                    因為地形微小差異的錯覺而讓人覺得水往上方流因此聲名大噪，並在溝渠旁設立刻有「奇觀」的石碑。
+                    此奇觀是因溝渠旁道路是下坡路，但溝渠本身卻並非是下坡，而是坡度很小的上坡，因此當站在低處時放眼望去，
+                    就像是溝渠中的水沿著下坡道路往上流，令人覺得不可思議。">水往上流</h2>
+                    <h3>
+                                        水往上流奇觀位於台11線約152公里處，原本是條農用灌溉溝渠，因為地形微小差異的錯覺而讓人覺得水往上方流因此聲名大噪，並在溝渠旁設立刻有「奇觀」的石碑。
+
+                    此奇觀是因溝渠旁道路是下坡路，但溝渠本身卻並非是下坡，而是坡度很小的上坡，因此當站在低處時放眼望去，就像是溝渠中的水沿著下坡道路往上流，令人覺得不可思議。
+                                        </h3>
+                    <p align="center">
+                        <marquee behavior="alternate" width="500" height="375" onmouseover="this.stop()" onmouseout="this.start()">
+                            <a href="https://dvblobcdnjp.azureedge.net//Content/Upload/Popular/Images/2019-06/e6a6d683-a2cb-4a53-ad1e-3faaae41162e_m.jpg" target="_blank">
+                                <img border="0" src="https://dvblobcdnjp.azureedge.net//Content/Upload/Popular/Images/2019-06/e6a6d683-a2cb-4a53-ad1e-3faaae41162e_m.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://www.eastcoast-nsa.gov.tw/image/28892/1024x768" target="_blank">
+                                <img border="0" src="https://www.eastcoast-nsa.gov.tw/image/28892/1024x768" width="500" height="375">
+                            </a>
+                            <a href="http://static.wixstatic.com/media/222d4e_e0d2fcfdeec04d9097ab11e7dafacbad~mv2.jpg" target="_blank">
+                                <img border="0" src="http://static.wixstatic.com/media/222d4e_e0d2fcfdeec04d9097ab11e7dafacbad~mv2.jpg" width="500" height="375">
+                            </a>
+                        </marquee>
+                    </p>
+                    </div>
+                    
+                    <div id="p3">
+                    <h2 title="
+                    加母子灣是阿美族人每年kilumaan(海祭)的場所，也是族人舉辦各項婚喪喜慶bagerlan儀式的地方，
+                    而加母子灣的阿美名kamod原義就是抓取、獲得之意，代表此地的海洋生物是最容易獲取，視為祖先留下的神聖場域。
+                    加母子灣美景天成風景如畫，遠眺臺東視野遼闊，夕陽美景令人賞心悅目，海灣北側有美麗的珊瑚礁，
+                    珊瑚覆蓋海底礁石的比率高，蘊藏豐富的魚類及海膽等，吸引許多魚類棲息其間，海底世界相當可觀，
+                    以石珊瑚居多，藻類、貝類、大型底棲無脊動物和珊瑚礁魚類的種類和數量都很豐富，且因為風浪小，
+                    又是砂質底域，加上沒有受到污染，海水乾淨清澈，可以在淺海區浮潛欣賞多采多姿的海底世界，也適合划獨木舟等海上運動。
+                    加母子灣由於地質特殊，屬於岩岸地形，幾乎都是石頭和石礫，有很多漂亮的石頭，運氣好的話，
+                    還可撿到從花東縱谷沖刷而下的菊花玉石、白玉，又融合當地阿美族的人文色彩，是花東海岸線菁華旅遊路線之一。">加母子灣</h2>
+                    <h3>
+                                        加母子灣是阿美族人每年kilumaan(海祭)的場所，也是族人舉辦各項婚喪喜慶bagerlan儀式的地方，而加母子灣的阿美名kamod原義就是抓取、獲得之意，代表此地的海洋生物是最容易獲取，視為祖先留下的神聖場域。
+
+                    加母子灣美景天成風景如畫，遠眺臺東視野遼闊，夕陽美景令人賞心悅目，海灣北側有美麗的珊瑚礁，珊瑚覆蓋海底礁石的比率高，蘊藏豐富的魚類及海膽等，吸引許多魚類棲息其間，海底世界相當可觀，以石珊瑚居多，藻類、貝類、大型底棲無脊動物和珊瑚礁魚類的種類和數量都很豐富，且因為風浪小，又是砂質底域，加上沒有受到污染，海水乾淨清澈，可以在淺海區浮潛欣賞多采多姿的海底世界，也適合划獨木舟等海上運動。
+
+                    加母子灣由於地質特殊，屬於岩岸地形，幾乎都是石頭和石礫，有很多漂亮的石頭，運氣好的話，還可撿到從花東縱谷沖刷而下的菊花玉石、白玉，又融合當地阿美族的人文色彩，是花東海岸線菁華旅遊路線之一。
+                                        </h3>
+                    <p align="center">
+                        <marquee behavior="alternate" width="500" height="375" onmouseover="this.stop()" onmouseout="this.start()">
+                            <a href="https://tour.taitung.gov.tw/image/5516/1024x768" target="_blank">
+                                <img border="0" src="https://tour.taitung.gov.tw/image/5516/1024x768" width="500" height="375">
+                            </a>
+                            
+                            <a href="https://www.eastcoast-nsa.gov.tw/image/51794/1024x768" target="_blank">
+                                <img border="0" src="https://www.eastcoast-nsa.gov.tw/image/51794/1024x768" width="500" height="375">
+                            </a>
+                            <a href="https://pic.pimg.tw/oy21540/1406099897-227905317_n.jpg" target="_blank">
+                                <img border="0" src="https://pic.pimg.tw/oy21540/1406099897-227905317_n.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://pic.pimg.tw/oy21540/1406099881-2726807779_n.jpg" target="_blank">
+                                <img border="0" src="https://pic.pimg.tw/oy21540/1406099881-2726807779_n.jpg" width="500" height="375">
+                            </a>
+                        </marquee>
+                    </p>
+                    </div>
+                    
+                    <div id="p4">
+                    <h2 title="都蘭灣位在台東縣東河鄉都蘭山腳下，為一處弧形的湛藍海灣，就在花東海岸公路旁，因海水長期侵蝕著海岸旁的石階地形，形成了約三十公尺高的斷崖，在岸邊望去無比壯觀，加上耳邊傳來聲聲海濤，橘紅夕陽灑落在閃耀的海面上，一望無際的山海景致令人著迷。早期的都蘭山為藍寶石的產地，質量相當優良，可惜後在風災過後礦脈消失，傳說大量的寶石皆沖刷到都蘭灣，吸引許多民眾到此碰運氣撿拾美麗的石頭。">都蘭灣</h2>
+                    <h3>
+                        都蘭灣位在台東縣東河鄉都蘭山腳下，為一處弧形的湛藍海灣，就在花東海岸公路旁，因海水長期侵蝕著海岸旁的石階地形，形成了約三十公尺高的斷崖，在岸邊望去無比壯觀，加上耳邊傳來聲聲海濤，橘紅夕陽灑落在閃耀的海面上，一望無際的山海景致令人著迷。早期的都蘭山為藍寶石的產地，質量相當優良，可惜後在風災過後礦脈消失，傳說大量的寶石皆沖刷到都蘭灣，吸引許多民眾到此碰運氣撿拾美麗的石頭。
+                    </h3>
+                    <p align="center">
+                        <marquee behavior="alternate" width="500" height="375" onmouseover="this.stop()" onmouseout="this.start()">
+                            <a href="http://3.bp.blogspot.com/-eFbGlrJhpp0/VIJ6xEtppTI/AAAAAAAACVg/3ij9w_wxQ0w/s1600/3.jpeg" target="_blank">
+                                <img border="0" src="http://3.bp.blogspot.com/-eFbGlrJhpp0/VIJ6xEtppTI/AAAAAAAACVg/3ij9w_wxQ0w/s1600/3.jpeg" width="500" height="375">
+                            </a>
+                            <a href="http://3.bp.blogspot.com/-Dj1IuwJaBXQ/VIKRg1qbUHI/AAAAAAAACXk/WT08t_iahGw/s1600/1.jpg" target="_blank">
+                                <img border="0" src="http://3.bp.blogspot.com/-Dj1IuwJaBXQ/VIKRg1qbUHI/AAAAAAAACXk/WT08t_iahGw/s1600/1.jpg" width="500" height="375">
+                            </a>
+                            <a href="http://2.bp.blogspot.com/-MaA7bN5Ee3E/VIKRg_7UrJI/AAAAAAAACXg/30kTPjhjX_w/s1600/2.jpg" target="_blank">
+                                <img border="0" src="http://2.bp.blogspot.com/-MaA7bN5Ee3E/VIKRg_7UrJI/AAAAAAAACXg/30kTPjhjX_w/s1600/2.jpg" width="500" height="375">
+                            </a>
+                            <a href="http://4.bp.blogspot.com/-SE-tee_AM_c/VIKRg_IJzBI/AAAAAAAACXo/y4RA1C01mfk/s1600/4.jpg" target="_blank">
+                                <img border="0" src="http://4.bp.blogspot.com/-SE-tee_AM_c/VIKRg_IJzBI/AAAAAAAACXo/y4RA1C01mfk/s1600/4.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://cyberisland.teldap.tw/S/JuXyFyFttTlXeEySsltwmTSldt" target="_blank">
+                                <img border="0" src="https://cyberisland.teldap.tw/S/JuXyFyFttTlXeEySsltwmTSldt" width="500" height="375">
+                            </a>
+                        </marquee>
+                    </p>
+                    </div>
+                    
+                    <div id="p5">
+                    <h2 title="都蘭，源自當地阿美語A’tolan(音譯：阿都蘭)，意指石頭很多以及地震頻繁的地方。臺東縣東河鄉都蘭村是一個典型的阿美族部落，這裡背倚都蘭山，面俯廣闊無際的太平洋，景色宜人。由於臺東海岸山脈歷經長年板塊運動的擠壓，呈現綿延百餘公里的山巒，壯觀的海階地形綿延長達4公里，這裡的地形和長濱鄉的海階緩坡非常類似，或許因著古老地形的恩賜，千年的地質變動造就了一處珍貴的考古文化──都蘭遺址。
+                    都蘭遺址是東海岸巨石文化的代表性遺址，距今約3000年，遺址分成「石壁區」與「石棺區」，除了這兩處已劃定為三級古蹟之外，另有三處文化遺留地點：土地銀行辦公室後面的臺地、都蘭林場的土銀建物右下方以及退輔院都蘭農莊的後院，這個地點因為沒有列入遺址範圍，因此無法進行任何考古遺跡的保存與維護。目前石壁區僅殘留三塊豎立原地的石壁，其中一塊上面有一對半球的突起，下方則呈現突出樣貌，因此人們替它取了一個有趣的名字：「孕婦石」。">都蘭遺址</h2>
+                    <h3>
+                                        都蘭，源自當地阿美語A’tolan(音譯：阿都蘭)，意指石頭很多以及地震頻繁的地方。臺東縣東河鄉都蘭村是一個典型的阿美族部落，這裡背倚都蘭山，面俯廣闊無際的太平洋，景色宜人。由於臺東海岸山脈歷經長年板塊運動的擠壓，呈現綿延百餘公里的山巒，壯觀的海階地形綿延長達4公里，這裡的地形和長濱鄉的海階緩坡非常類似，或許因著古老地形的恩賜，千年的地質變動造就了一處珍貴的考古文化──都蘭遺址。
+                    都蘭遺址是東海岸巨石文化的代表性遺址，距今約3000年，遺址分成「石壁區」與「石棺區」，除了這兩處已劃定為三級古蹟之外，另有三處文化遺留地點：土地銀行辦公室後面的臺地、都蘭林場的土銀建物右下方以及退輔院都蘭農莊的後院，這個地點因為沒有列入遺址範圍，因此無法進行任何考古遺跡的保存與維護。目前石壁區僅殘留三塊豎立原地的石壁，其中一塊上面有一對半球的突起，下方則呈現突出樣貌，因此人們替它取了一個有趣的名字：「孕婦石」。
+                                        </h3>
+                    <p align="center">
+                        <marquee behavior="alternate" width="500" height="375" onmouseover="this.stop()" onmouseout="this.start()">
+                            <a href="https://tour.taitung.gov.tw/image/157/1024x768" target="_blank">
+                                <img border="0" src="https://tour.taitung.gov.tw/image/157/1024x768" width="500" height="375">
+                            </a>
+                            <a href="https://img3.okgo.tw/titlepic/b1448_3.jpg" target="_blank">
+                                <img border="0" src="https://img3.okgo.tw/titlepic/b1448_3.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://cdntwrunning.biji.co/800_d80cfcaa5b9eb9369c7b2300eb1cefad.jpg" target="_blank">
+                                <img border="0" src="https://cdntwrunning.biji.co/800_d80cfcaa5b9eb9369c7b2300eb1cefad.jpg" width="500" height="375">
+                            </a>
+                            <a href="https://cdntwrunning.biji.co/800_e8bc5da87d6a39078150a59fc092304c.jpg" target="_blank">
+                                <img border="0" src="https://cdntwrunning.biji.co/800_e8bc5da87d6a39078150a59fc092304c.jpg" width="500" height="375">
+                            </a>
+                        </marquee>
+                    </p>
+                    </div>
+                    
+                    </h3>
+                </ul>
+            </div>
+
+   
+</body>
+</html>
+<!--
+都蘭糖廠藝術村
+1.https://ivans120tw.pixnet.net/blog/post/348454258-%E5%8F%B0%E6%9D%B1.%E6%9D%B1%E6%B2%B3-%E9%83%BD%E8%98%AD%E7%B3%96%E5%BB%A0%E8%97%9D%E8%A1%93%E6%9D%91
+2.https://travel.ettoday.net/article/916454.htm
+水往上流
+1.https://dailyview.tw/popular/detail/5333
+2.https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/33
+加母子灣
+1.https://tour.taitung.gov.tw/zh-tw/attraction/details/329
+2.https://blog.xuite.net/hc108538/twblog/175546785-%E9%87%8D%E5%9B%9E%E5%8A%A0%E6%AF%8D%E5%AD%90%E7%81%A3~%E5%93%87%E9%9D%A0%EF%BC%81%E6%B2%99%E7%81%98%E5%92%A7%EF%BC%9F
+都蘭灣
+1.https://www.google.com/search?q=%E9%83%BD%E8%98%AD%E7%81%A3&sxsrf=ACYBGNTyZjp8oAgQzyS_iBs_E1ia7gtqPg:1576613363918&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiRn4S8vr3mAhUWc3AKHSYqBwcQ_AUoAnoECBEQBA&biw=1536&bih=722#imgrc=peeJsPQboGh5JM:
+2.http://www.formosaimage.com/gallery2/main.php?g2_itemId=20630
+都蘭遺址
+1.https://okgo.tw/butyview.html?id=1448
+2.https://hiking.biji.co/index.php?q=news&act=info&id=3529
+杜侖1932745_834811696533125_1122825253_o.jpg
+石頭火鍋1370-1511159687-dd3c7.jpg
+阿里鳳鳳d6b9c606c2274734559e2bc16fb0091a.jpg
+影片https://youtu.be/AOG84xgIfhc
+https://www.youtube.com/watch?v=CH7ezmY9TIU
+-->
+<!--http://www.nipic.com/show/9644998.html    圖騰圖片來源-->
+
